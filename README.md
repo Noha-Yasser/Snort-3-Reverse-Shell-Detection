@@ -52,6 +52,7 @@ alert tcp $EXTERNAL_NET any -> $HOME_NET 4444 (
     sid:1000010;
     rev:1;
 )
+```
 ## SOC Analyst Perspective
 
 From a SOC Analyst perspective, detecting suspicious network activity is only the beginning of the investigation.
